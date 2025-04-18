@@ -86,14 +86,28 @@ export default function App() {
 
         <TabsContent value="list" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
           {memes.map((meme) => (
-            <Card key={meme.id}>
-              <CardContent className="p-2">
-                <img src={meme.image} alt={meme.title} className="rounded-lg w-full object-cover mb-2" />
-                <h2 className="font-semibold text-lg">{meme.title}</h2>
-                <p>❤️ {meme.likes} лайків</p>
-                <a href={meme.image} className="text-blue-600 underline text-sm" target="_blank" rel="noreferrer">Відкрити зображення</a>
-              </CardContent>
-            </Card>
+            <Card key={meme.id} className="flex flex-col h-full">
+            <CardContent className="p-4 flex flex-col items-center justify-between h-full">
+              <img
+                src={meme.image}
+                alt={meme.title}
+                className="rounded-lg w-full h-48 object-cover mb-4"
+              />
+              <div className="text-center flex flex-col flex-grow justify-between">
+                <h2 className="font-semibold text-lg mb-1">{meme.title}</h2>
+                <p className="text-sm mb-2">❤️ {meme.likes} лайків</p>
+                <a
+                  href={meme.image}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-auto inline-block bg-blue-600 text-white text-sm font-medium py-1.5 px-4 rounded-lg shadow hover:bg-blue-700 transition-all"
+                >
+                  🔗 Відкрити зображення
+                </a>
+              </div>
+            </CardContent>
+          </Card>
+          
           ))}
         </TabsContent>
       </Tabs>
