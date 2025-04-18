@@ -9,4 +9,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  preview: {
+    host: true,
+    port: 4173,
+    allowedHosts: ['reactapp-production-dc63.up.railway.app'],
+  },
 })
