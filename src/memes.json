@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Funny Meme #1",
+        "image": "https://rivnepost.rv.ua/img/650/internetmemi-yak-zhanr-zhurnalistiki_20250122_8459.jpg",
+        "likes": 7
+    },
+    {
+        "id": 2,
+        "title": "Funny Meme #2",
+        "image": "https://osvitoria.media/wp-content/uploads/2023/07/17.jpg",
+        "likes": 45
+    },
+    {
+        "id": 3,
+        "title": "Funny Meme #3",
+        "image": "https://pressclub.lviv.ua/wp-content/uploads/2020/12/13.jpg",
+        "likes": 84
+    },
+    {
+        "id": 4,
+        "title": "Funny Meme #4",
+        "image": "https://zno.if.ua/wp-content/uploads/2019/11/photo5404758194015808572.jpg",
+        "likes": 42
+    },
+    {
+        "id": 5,
+        "title": "Funny Meme #5",
+        "image": "https://www.depo.ua/uploads/posts/20191224/754x/nVBwHsHtG6uuotydIGJniT6Mq3s0xrGyyweRqwof.jpeg",
+        "likes": 69
+    },
+    {
+        "id": 6,
+        "title": "Funny Meme #6",
+        "image": "https://osvitoria.media/wp-content/uploads/2023/07/1.png",
+        "likes": 74
+    },
+    {
+        "id": 7,
+        "title": "Funny Meme #7",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgctlSfyvB6jIdf_pk_v8qqDeMxFPuBxjgO_XJf4vFsFIEE4MA3nHNviEF7svpvYEEmrGt6kFvj3AZXWbGp3xQJ4i2OYcgqWJHO5gxvJOsCNiviVDeQH9AKaVpieRaDyNFwYY_shcPpepTx/s1600/risovach.com.jpg",
+        "likes": 57
+    },
+    {
+        "id": 8,
+        "title": "Funny Meme #8",
+        "image": "https://cdn4.suspilne.media/images/resize/400x1.78/e97d0453bb4b23e6.jpg",
+        "likes": 61
+    },
+    {
+        "id": 9,
+        "title": "Funny Meme #9",
+        "image": "https://www.depo.ua/uploads/151615/conversions/5597684b78d5c7fbe49018ba2d912df5-wide-big.jpg",
+        "likes": 24
+    },
+    {
+        "id": 10,
+        "title": "Funny Meme #10",
+        "image": "https://s.mind.ua/img/forall/a/202657/40.jpg?1700818086",
+        "likes": 41
+    }
+]
