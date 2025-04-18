@@ -84,7 +84,7 @@ export default function App() {
           </Table>
         </TabsContent>
 
-        <TabsContent value="list" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        <TabsContent value="list" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
           {memes.map((meme) => (
             <Card key={meme.id}>
               <CardContent className="p-2">
